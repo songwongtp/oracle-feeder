@@ -10,7 +10,6 @@ import {
   RawKey,
   Wallet,
   MsgAggregateExchangeRateVote,
-  isTxError,
   StdFee,
 } from '@terra-money/terra.js'
 import * as packageInfo from '../package.json'
