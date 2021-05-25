@@ -11,7 +11,7 @@ import {
   Wallet,
   MsgAggregateExchangeRateVote,
   StdFee,
-  TxBroadcastResult,
+  isTxError,
 } from '@terra-money/terra.js'
 import * as packageInfo from '../package.json'
 
